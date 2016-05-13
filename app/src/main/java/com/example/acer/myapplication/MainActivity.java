@@ -172,7 +172,7 @@ public class MainActivity extends FragmentActivity{
 
 // Tell the user about what we did.
 
-        Toast.makeText(MainActivity.this, "Cancel!", Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "Cancel Alarm", Toast.LENGTH_LONG).show();
 
     }
 
