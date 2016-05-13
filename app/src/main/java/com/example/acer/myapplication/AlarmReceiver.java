@@ -26,9 +26,9 @@ public class AlarmReceiver extends WakefulBroadcastReceiver {
 
     public void onReceive(final Context context, Intent intent) {
 
-        sendNotification(context , "Ring Ring..");
+        sendNotification(context , "Wake up!");
 
-        MainActivity.getTextView2().setText("Alarm ringing");
+        MainActivity.getTextView2().setText("RISE AND SHINE");
 
         Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
 
