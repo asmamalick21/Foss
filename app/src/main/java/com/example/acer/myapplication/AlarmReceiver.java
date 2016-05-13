@@ -26,7 +26,7 @@ public class AlarmReceiver extends WakefulBroadcastReceiver {
 
     public void onReceive(final Context context, Intent intent) {
 
-        sendNotification(context , "Ring Ring..");
+        sendNotification(context , "....Tring Tring....");
 
         MainActivity.getTextView2().setText("Alarm ringing");
 
