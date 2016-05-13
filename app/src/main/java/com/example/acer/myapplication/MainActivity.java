@@ -136,7 +136,7 @@ public class MainActivity extends FragmentActivity{
 
             timeMinute = bundle.getInt(MyConstants.MINUTE);
 
-            if(timeMinute<10){
+            if(timeMinute<20){
 
                 textView1.setText("Alarm set for:\n"+timeHour + ":" + "0" + timeMinute);}
 
